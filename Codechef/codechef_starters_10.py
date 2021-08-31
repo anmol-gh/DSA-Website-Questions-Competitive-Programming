@@ -14,5 +14,6 @@ for _ in range(int(input())):
 #Question 02
 for _ in range(int(input())):
     n,k,s=list(map(int,input().split()))
-    #arr=n+k-1
-    non_rep_sun=n*n
+    non_rep_sum=n*n
+    x=(s-non_rep_sum)/(k-1)
+    print(int(x))
