@@ -17,3 +17,7 @@ for _ in range(int(input())):
     non_rep_sum=n*n
     x=(s-non_rep_sum)/(k-1)
     print(int(x))
+
+#Question 03
+for _ in range(int(input())):
+    pass
