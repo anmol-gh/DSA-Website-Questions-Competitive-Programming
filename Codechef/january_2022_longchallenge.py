@@ -16,7 +16,7 @@ for _ in range(int(input())):
         answer = (2 ** 10) * (3 ** (d - 10))
     else:
         answer = 2 ** d
-    print(min(answer,n))
+    print(min(answer, n))
 
 for _ in range(int(input())):
     string = input()
