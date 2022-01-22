@@ -8,30 +8,21 @@
 
 # Question 02
 
-for _ in range(int(input())):
-    n, d = map(int, input().split())
-    if d > 21:
-        answer = n
-    elif d > 10:
-        answer = (2 ** 10) * (3 ** (d - 10))
-    else:
-        answer = 2 ** d
-    print(min(answer, n))
+# for _ in range(int(input())):
+#     n, d = map(int, input().split())
+#     if d > 21:
+#         answer = n
+#     elif d > 10:
+#         answer = (2 ** 10) * (3 ** (d - 10))
+#     else:
+#         answer = 2 ** d
+#     print(min(answer, n))
+
+# Question 03
 
 for _ in range(int(input())):
     string = input()
-    is_prime = False
-    s = ""
-    l = []
-    for i in range(len(string)):
-        s = ""
-        s += string[i]
-        l.append(s)
-        for j in range(i + 1, len(string)):
-            s += string[j]
-            l.append(s)
-    print(l)
-
-
-def check_prime(number: int) -> bool:
-    pass
+    if "10" in stringor "11" in string:
+        print("Yes")
+    else:
+        print("No")
