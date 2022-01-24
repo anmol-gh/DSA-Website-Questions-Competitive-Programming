@@ -22,7 +22,7 @@
 
 for _ in range(int(input())):
     string = input()
-    if "10" in stringor "11" in string:
+    if "10" in string or "11" in string:
         print("Yes")
     else:
         print("No")
